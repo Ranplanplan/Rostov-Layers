@@ -1,0 +1,909 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 55309
+   name "Signal Mood"
+   tl -34.874 -1415.823
+   res "{63388AE3BE165697}Sounds/Music/Ingame/Music_Ingame_Mood.sig"
+   inputsport {
+    1 7 9
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    0.3 0 3.8
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    1 1 12
+   }
+   path "{63388AE3BE165697}Sounds/Music/Ingame/Music_Ingame_Mood.sig"
+  }
+ }
+ sounds {
+  SoundClass {
+   id 38921
+   name "SOUND_FOREST"
+   version 5
+   tl 178.036 -1279.179
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 71686
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB -19
+   outState 6155
+   outStatePort 22535
+  }
+  SoundClass {
+   id 39945
+   name "SOUND_COASTLINE"
+   version 5
+   tl 176.786 -883.393
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 35846
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB -19
+   outState 6155
+   outStatePort 22535
+  }
+  SoundClass {
+   id 40969
+   name "SOUND_VILLAGE"
+   version 5
+   tl 179.643 -464.916
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 36870
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB -19
+   outState 6155
+   outStatePort 22535
+  }
+  SoundClass {
+   id 41993
+   name "SOUND_ONENTERINGENEMYBASE"
+   version 5
+   tl 176.786 -26.381
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 37894
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB -19
+   outState 6155
+   outStatePort 22535
+  }
+  SoundClass {
+   id 57353
+   name "SOUND_RESPAWNMENU"
+   version 5
+   tl 193.334 1581.929
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 56324
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB -6
+   outState 6155
+   outStatePort 22535
+  }
+  SoundClass {
+   id 58377
+   name "SOUND_ONSPAWN"
+   version 5
+   tl 183.44 565.702
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 67588
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB -16
+   outState 6155
+   outStatePort 22535
+  }
+  SoundClass {
+   id 59401
+   name "SOUND_ONVICTORY"
+   version 5
+   tl 191.555 994.452
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 68612
+       port 65
+      }
+      ConnectionClass connection {
+       id 69636
+       port 65
+      }
+      ConnectionClass connection {
+       id 65540
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB -6
+   outState 6155
+   outStatePort 22535
+  }
+  SoundClass {
+   id 60425
+   name "SOUND_ONDEFEAT"
+   version 5
+   tl 197.013 1204.778
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 66564
+       port 65
+      }
+      ConnectionClass connection {
+       id 68612
+       port 65
+      }
+      ConnectionClass connection {
+       id 69636
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB -6
+   outState 6155
+   outStatePort 22535
+  }
+  SoundClass {
+   id 61449
+   name "SOUND_ONBASECAPTURE"
+   version 5
+   tl 184.5 379.833
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 64516
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB -18
+   outState 6155
+   outStatePort 22535
+  }
+  SoundClass {
+   id 63497
+   name "SOUND_ONDEATH"
+   version 5
+   tl 193.631 1391.607
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 54276
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB -9
+   outState 6155
+   outStatePort 22535
+  }
+ }
+ selectors {
+  SelectorClass : "{F459B546742E9555}Sounds/_SharedData/Configs/Selector/Music/Selector_Music_Mood.conf" {
+   id 35846
+   version 5
+   tl -36.071 -885.974
+   parent "{F459B546742E9555}Sounds/_SharedData/Configs/Selector/Music/Selector_Music_Mood.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 55309
+       port 2
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 343438175
+     links {
+      ConnectionClass connection {
+       id 48132
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1197281699
+    }
+    ConnectionsClass connections {
+     id 1963212503
+     links {
+      ConnectionClass connection {
+       id 46084
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+  SelectorClass : "{F459B546742E9555}Sounds/_SharedData/Configs/Selector/Music/Selector_Music_Mood.conf" {
+   id 36870
+   version 5
+   tl -36.071 -460.712
+   parent "{F459B546742E9555}Sounds/_SharedData/Configs/Selector/Music/Selector_Music_Mood.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 55309
+       port 2
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 343438175
+     links {
+      ConnectionClass connection {
+       id 51204
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1197281699
+    }
+    ConnectionsClass connections {
+     id 1963212503
+     links {
+      ConnectionClass connection {
+       id 49156
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+  SelectorClass : "{F459B546742E9555}Sounds/_SharedData/Configs/Selector/Music/Selector_Music_Mood.conf" {
+   id 37894
+   version 5
+   tl -36.071 -21.706
+   parent "{F459B546742E9555}Sounds/_SharedData/Configs/Selector/Music/Selector_Music_Mood.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 55309
+       port 2
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 343438175
+     links {
+      ConnectionClass connection {
+       id 54276
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1197281699
+    }
+    ConnectionsClass connections {
+     id 1963212503
+     links {
+      ConnectionClass connection {
+       id 52228
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+  SelectorClass : "{F459B546742E9555}Sounds/_SharedData/Configs/Selector/Music/Selector_Music_Mood.conf" {
+   id 71686
+   version 5
+   tl -40 -1265
+   parent "{F459B546742E9555}Sounds/_SharedData/Configs/Selector/Music/Selector_Music_Mood.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 55309
+       port 2
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 343438175
+     links {
+      ConnectionClass connection {
+       id 45060
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1963212503
+     links {
+      ConnectionClass connection {
+       id 43012
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+ }
+ mixers {
+  MixerClass {
+   id 6155
+   name "OutputState"
+   version 4
+   tl 418.206 -898.555
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 22535
+     links {
+      ConnectionClass connection {
+       id 41993
+       port 65
+      }
+      ConnectionClass connection {
+       id 39945
+       port 65
+      }
+      ConnectionClass connection {
+       id 40969
+       port 65
+      }
+      ConnectionClass connection {
+       id 38921
+       port 65
+      }
+      ConnectionClass connection {
+       id 57353
+       port 65
+      }
+      ConnectionClass connection {
+       id 58377
+       port 65
+      }
+      ConnectionClass connection {
+       id 59401
+       port 65
+      }
+      ConnectionClass connection {
+       id 60425
+       port 65
+      }
+      ConnectionClass connection {
+       id 61449
+       port 65
+      }
+      ConnectionClass connection {
+       id 63497
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    512 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large"
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 43012
+   name "Forest Positive"
+   version 7
+   tl -307.778 -1368.536
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{3FC0F41BF956BAB1}Sounds/Music/Ingame/Samples/Layers/MU_MorningStroll_Chords.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{0F22852C9D4B029A}Sounds/Music/Ingame/Samples/Layers/MU_MorningStroll_Full.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{9B9494278A071CA0}Sounds/Music/Ingame/Samples/Layers/MU_MorningStroll_Melody_Bits.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{5A94ABFDAB244BFF}Sounds/Music/Ingame/Samples/Layers/MU_V-Flight_Ambient.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{92D6AC0342C7D420}Sounds/Music/Ingame/Samples/Layers/MU_V-Flight_Full.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{FFC57E66DE79ADA8}Sounds/Music/Ingame/Samples/Layers/MU_WindOfChange_Full.wav"
+     Index 5
+    }
+    AudioBankSampleClass Sample {
+     Filename "{C2AA199645857F1D}Sounds/Music/Ingame/Samples/Layers/MU_WindOfChange_Strings_Ambient.wav"
+     Index 6
+    }
+    AudioBankSampleClass Sample {
+     Filename "{BBB6AB0D564FBCD3}Sounds/Music/Ingame/Samples/Layers/MU_WindOfChange_Strings_Ambient2.wav"
+     Index 7
+    }
+   }
+  }
+  BankLocalClass {
+   id 45060
+   name "Forest Negative"
+   version 7
+   tl -305.556 -1153.452
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{D02476A9EAA0E75E}Sounds/Music/Ingame/Samples/Layers/MU_ForestShadows_Ambient_Horns.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{0146DC0B9B8E42A0}Sounds/Music/Ingame/Samples/Layers/MU_ForestShadows_Ambient_Strings.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{3041EE7B249D25B3}Sounds/Music/Ingame/Samples/Layers/MU_ForestShadows_Bits.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{B22DCDC4EF55A57F}Sounds/Music/Ingame/Samples/Layers/MU_ForestShadows_Full.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{281843788EFC92B1}Sounds/Music/Ingame/Samples/Layers/MU_Respawnmenu_MainMenuThemeV2_Drums.wav"
+     Index 5
+    }
+    AudioBankSampleClass Sample {
+     Filename "{1A8D8814CB7E4B6C}Sounds/Music/Ingame/Samples/Layers/MU_LostAsShit_Ostinatos.wav"
+     Index 5
+    }
+    AudioBankSampleClass Sample {
+     Filename "{29A9785CEA485CD5}Sounds/Music/Ingame/Samples/Layers/MU_LostAsShit_Strings_Ambient.wav"
+     Index 6
+    }
+    AudioBankSampleClass Sample {
+     Filename "{F3AFD5E5E40B59F3}Sounds/Music/Ingame/Samples/Layers/MU_CoastalRun_Full.wav"
+     Index 7
+    }
+    AudioBankSampleClass Sample {
+     Filename "{6591E71117C8E401}Sounds/Music/Ingame/Samples/Layers/MU_CoastalRun_Strings.wav"
+     Index 8
+    }
+    AudioBankSampleClass Sample {
+     Filename "{0AB2316E0D1AC27F}Sounds/Music/Ingame/Samples/Layers/MU_CoastalRun_Synth_Ambient.wav"
+     Index 9
+    }
+    AudioBankSampleClass Sample {
+     Filename "{878A5FE5A7C1D0E2}Sounds/Music/Ingame/Samples/Layers/MU_CoastalRun_Woods_Mallets.wav"
+     Index 10
+    }
+    AudioBankSampleClass Sample {
+     Filename "{4EF3524FC8C22C35}Sounds/Music/Ingame/Samples/Layers/MU_RomeoStrike_Brass.wav"
+     Index 11
+    }
+    AudioBankSampleClass Sample {
+     Filename "{4ACE3B508940AA0D}Sounds/Music/Ingame/Samples/Layers/MU_RomeoStrike_Drone.wav"
+     Index 12
+    }
+    AudioBankSampleClass Sample {
+     Filename "{7510FB929B9DDB0F}Sounds/Music/Ingame/Samples/Layers/MU_RomeoStrike_Full.wav"
+     Index 13
+    }
+    AudioBankSampleClass Sample {
+     Filename "{AD913490F3159FA7}Sounds/Music/Ingame/Samples/Layers/MU_RomeoStrike_Pads.wav"
+     Index 14
+    }
+    AudioBankSampleClass Sample {
+     Filename "{6C1C03EB39736CC8}Sounds/Music/Ingame/Samples/Layers/MU_RomeoStrike_Strings_Melody.wav"
+     Index 15
+    }
+   }
+  }
+  BankLocalClass {
+   id 46084
+   name "Coastline Positive"
+   version 7
+   tl -301.667 -995.194
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{5A94ABFDAB244BFF}Sounds/Music/Ingame/Samples/Layers/MU_V-Flight_Ambient.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{92D6AC0342C7D420}Sounds/Music/Ingame/Samples/Layers/MU_V-Flight_Full.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{FFC57E66DE79ADA8}Sounds/Music/Ingame/Samples/Layers/MU_WindOfChange_Full.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{C2AA199645857F1D}Sounds/Music/Ingame/Samples/Layers/MU_WindOfChange_Strings_Ambient.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{BBB6AB0D564FBCD3}Sounds/Music/Ingame/Samples/Layers/MU_WindOfChange_Strings_Ambient2.wav"
+     Index 5
+    }
+   }
+  }
+  BankLocalClass {
+   id 48132
+   name "Coastline Negative"
+   version 7
+   tl -306.667 -717.936
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{1AD9D5A08B653F45}Sounds/Music/Ingame/Samples/Layers/MU_IronOnTheShoals_Brassy.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{32426D6352F47094}Sounds/Music/Ingame/Samples/Layers/MU_IronOnTheShoals_Full.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{34F69A593F326935}Sounds/Music/Ingame/Samples/Layers/MU_IronOnTheShoals_Strings.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{D81015E06890FBF9}Sounds/Music/Ingame/Samples/Layers/MU_IronOnTheShoals_Synth_Ambients.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{E885EE42A3A7F7E3}Sounds/Music/Ingame/Samples/Layers/MU_OnlyTheDead_Harp.wav"
+     Index 4
+    }
+   }
+  }
+  BankLocalClass {
+   id 49156
+   name "Village Positive"
+   version 7
+   tl -308.917 -539.143
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{C6BADF5373D14D87}Sounds/Music/Ingame/Samples/Layers/MU_FriendlyEncounters_Ambient_Strings.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{6094A30E0684EFB4}Sounds/Music/Ingame/Samples/Layers/MU_FriendlyEncounters_Ambient_Woods.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{B720D33761F433CC}Sounds/Music/Ingame/Samples/Layers/MU_RoutinePatrol_Brasses.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{832329C259AAD70F}Sounds/Music/Ingame/Samples/Layers/MU_RoutinePatrol_Full.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{538E7B672AC46F03}Sounds/Music/Ingame/Samples/Layers/MU_RoutinePatrol_StringsWoods.wav"
+     Index 4
+    }
+   }
+  }
+  BankLocalClass {
+   id 51204
+   name "Village Negative"
+   version 7
+   tl -306.667 -329.403
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{D573ABD9C64531DD}Sounds/Music/Ingame/Samples/Layers/MU_OnlyTheDead_Full.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{E885EE42A3A7F7E3}Sounds/Music/Ingame/Samples/Layers/MU_OnlyTheDead_Harp.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{CECC7655D51A1E44}Sounds/Music/Ingame/Samples/Layers/MU_OnlyTheDead_Strings.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{D02476A9EAA0E75E}Sounds/Music/Ingame/Samples/Layers/MU_ForestShadows_Ambient_Horns.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{3041EE7B249D25B3}Sounds/Music/Ingame/Samples/Layers/MU_ForestShadows_Bits.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{1BD6847AE5F2A049}Sounds/Music/Ingame/Samples/Layers/MU_Gameover_LooseV1_Full.wav"
+     Index 5
+    }
+    AudioBankSampleClass Sample {
+     Filename "{5EE0D1B74CE13C63}Sounds/Music/Ingame/Samples/Layers/MU_Gameover_LooseV1_Quartet_Vlas_Cellos.wav"
+     Index 6
+    }
+    AudioBankSampleClass Sample {
+     Filename "{D4614FBA2AEC0AC1}Sounds/Music/Ingame/Samples/Layers/MU_Gameover_LooseV1_Section_Melody.wav"
+     Index 7
+    }
+    AudioBankSampleClass Sample {
+     Filename "{DA0F5A0FF24D64C5}Sounds/Music/Ingame/Samples/Layers/MU_Gameover_LooseV1_Section_Melody2.wav"
+     Index 8
+    }
+    AudioBankSampleClass Sample {
+     Filename "{31A4A9B58965D676}Sounds/Music/Ingame/Samples/Layers/MU_Gameover_LooseV1_Vls_Vlas.wav"
+     Index 9
+    }
+   }
+  }
+  BankLocalClass {
+   id 52228
+   name "Entering Base Positive"
+   version 7
+   tl -308.889 -104.444
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{D629CD408BDF4E17}Sounds/Music/Ingame/Samples/Layers/MU_RelativeSafety_Ambiences.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{4F845D39B37FBFF2}Sounds/Music/Ingame/Samples/Layers/MU_RelativeSafety_Ambiences_Soft.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{A63D8015DF7D7B06}Sounds/Music/Ingame/Samples/Layers/MU_RelativeSafety_Full.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{B40680772CBFA46F}Sounds/Music/Ingame/Samples/Layers/MU_RelativeSafety_Horns_Melodic.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{27FAA69A3BD0473C}Sounds/Music/Ingame/Samples/Layers/MU_BeyondTheVeil.wav"
+     Index 4
+    }
+   }
+  }
+  BankLocalClass {
+   id 54276
+   name "Entering Base Positive"
+   version 7
+   tl -306.667 113.333
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{46687FAD902A75F1}Sounds/Music/Ingame/Samples/Layers/MU_LostAsShit_Bits.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{C4045C125BE2F53D}Sounds/Music/Ingame/Samples/Layers/MU_LostAsShit_Full.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{1A8D8814CB7E4B6C}Sounds/Music/Ingame/Samples/Layers/MU_LostAsShit_Ostinatos.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{29A9785CEA485CD5}Sounds/Music/Ingame/Samples/Layers/MU_LostAsShit_Strings_Ambient.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{1AD9D5A08B653F45}Sounds/Music/Ingame/Samples/Layers/MU_IronOnTheShoals_Brassy.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{281843788EFC92B1}Sounds/Music/Ingame/Samples/Layers/MU_Respawnmenu_MainMenuThemeV2_Drums.wav"
+     Index 5
+    }
+    AudioBankSampleClass Sample {
+     Filename "{32426D6352F47094}Sounds/Music/Ingame/Samples/Layers/MU_IronOnTheShoals_Full.wav"
+     Index 6
+    }
+    AudioBankSampleClass Sample {
+     Filename "{34F69A593F326935}Sounds/Music/Ingame/Samples/Layers/MU_IronOnTheShoals_Strings.wav"
+     Index 7
+    }
+    AudioBankSampleClass Sample {
+     Filename "{D81015E06890FBF9}Sounds/Music/Ingame/Samples/Layers/MU_IronOnTheShoals_Synth_Ambients.wav"
+     Index 8
+    }
+    AudioBankSampleClass Sample {
+     Filename "{817486CEBC43D630}Sounds/Music/Ingame/Samples/Layers/MU_TheHumanSea_Full.wav"
+     Index 9
+    }
+    AudioBankSampleClass Sample {
+     Filename "{07AFE68A88548650}Sounds/Music/Ingame/Samples/Layers/MU_TheHumanSea_Melodic.wav"
+     Index 10
+    }
+    AudioBankSampleClass Sample {
+     Filename "{EA2D6F0019546F46}Sounds/Music/Ingame/Samples/Layers/MU_TheHumanSea_Rhythmic.wav"
+     Index 11
+    }
+   }
+  }
+  BankLocalClass {
+   id 56324
+   name "Respawn Menu"
+   version 7
+   tl -296.487 1574.965
+   Volume -11
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade out function" SCurve
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{8381C62215F492B1}Sounds/Music/Music_Perso/Music_Respawn.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 64516
+   name "Base Capture"
+   version 7
+   tl -299.111 383.333
+   Volume 7
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{1CEAD47C5A9B42D1}Sounds/Music/Ingame/Samples/Jingles/MU_Jingle_Win_01.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 65540
+   name "Game Win"
+   version 7
+   tl -304 992
+   Volume -5
+   Silence 3000
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{05DD67D0525B9B64}Sounds/Music/Music_Perso/music_ending.wav"
+     Index 2
+    }
+   }
+  }
+  BankLocalClass {
+   id 66564
+   name "Game Lost"
+   version 7
+   tl -306.25 1202.917
+   Volume -3
+   Silence 3000
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{05DD67D0525B9B64}Sounds/Music/Music_Perso/music_ending.wav"
+     Index 3
+    }
+   }
+  }
+  BankLocalClass {
+   id 67588
+   name "Spawn"
+   version 7
+   tl -307.778 558.889
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{4687B33BA7B59E7D}Sounds/Music/Ingame/Samples/MU_GameStart_01.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{DF990AA2BA52AFED}Sounds/Music/Ingame/Samples/MU_GameStart_02.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{A893622A4EF0409D}Sounds/Music/Ingame/Samples/MU_GameStart_03.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{AF54987B2876FA60}Sounds/Music/Ingame/Samples/MU_GameStart_04.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{D85EF0F3DCD41530}Sounds/Music/Ingame/Samples/MU_GameStart_05.wav"
+     Index 4
+    }
+   }
+  }
+  BankLocalClass {
+   id 68612
+   name "Drums"
+   version 7
+   tl -304.616 702.726
+   Volume -1
+   Silence 300
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{349D4D7CC242131D}Sounds/Music/Ingame/Samples/Jingles/MU_EndCard_Drums.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 69636
+   name "Whoosh"
+   version 7
+   tl -307.167 855.583
+   Volume 4
+   Silence 150
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{6082BC60752C3CE4}Sounds/Music/Ingame/Samples/Jingles/MU_EndCard_Whoosh.wav"
+    }
+   }
+  }
+ }
+ version 1
+}
