@@ -1,0 +1,22 @@
+GameProject {
+ ID "ClutchRostovOblastV1"
+ GUID "62F9494161B29086"
+ TITLE "Clutch Rostov Oblast V1"
+ Dependencies {
+  "5D84C738432BFE6A" "5E8EB849F3CF691C" "5E1735DB431EE29B" "58D0FB3206B6F859" "5E172C6CAD10FBFC" "60B524F7A5AE96A8" "5F0D245931200FD1"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
