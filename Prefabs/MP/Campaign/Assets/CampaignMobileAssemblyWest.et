@@ -1,0 +1,20 @@
+Vehicle : "{38186F12F27A61C6}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_MERDC.et" {
+ ID "5206D4E79715C115"
+ components {
+  BaseRadioComponent "{51EAE034CD7B7A2C}" {
+   Transceivers {
+    RelayTransceiver "{5A9ABE5DB2EE7018}" {
+     "Transmitting Range" 1
+    }
+    RelayTransceiver "{51EAE034C972A699}" {
+     "Transmitting Range" 1
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "QG Mobile US"
+   }
+  }
+ }
+}

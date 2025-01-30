@@ -1,0 +1,12 @@
+SCR_SpawnPoint {
+ ID "5E5C8E63CED19B47"
+ components {
+  SCR_CoverageRadioComponent "{608EC5BBB563242C}" {
+   Transceivers {
+    RelayTransceiver "{608EC5BBAF85F81E}" {
+     "Transmitting Range" 1
+    }
+   }
+  }
+ }
+}
