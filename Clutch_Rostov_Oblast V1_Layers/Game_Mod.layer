@@ -1,0 +1,297 @@
+RadioManagerEntity {
+ coords 7032.411 1.781 8303.978
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 7038.678 1.802 8301.881
+}
+SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ components {
+  RHS_AdditionalGameModeSettingsComponent "{61AE627E9607513B}" {
+   m_CallInSupportsConfig SCR_CallInSupportContainerConfig "{621B2B44550E77F5}" {
+    m_aCallIns {
+     SCR_CallInSupportContainer "{613B10C78ECB03E7}" {
+      m_eRequiredRank CAPTAIN
+      m_iMaxCallInDistance 2000
+      m_iMinCallInDistance 10
+      m_iMinSpawnDelay 20
+      m_iMaxSpawnDelay 30
+      m_iCancellationCooldown 20
+      m_bMustBeSquadLeader 0
+     }
+     SCR_CallInSupportContainer "{613B10C7889A9423}" {
+      m_iRequestCooldown 560
+      m_eRequiredRank CAPTAIN
+      m_iMaxCallInDistance 2000
+      m_iMinCallInDistance 1
+      m_iMinSpawnDelay 20
+      m_iMaxSpawnDelay 30
+      m_iCancellationCooldown 20
+      m_bMustBeSquadLeader 0
+      m_iMinNumberOfSquadMembers 2
+      m_aRequiredGadgets {
+       SCR_CallInRequiredGadgetContainer "{624EB6B351DB734E}" {
+        m_sGadgetType "FLASHLIGHT"
+        m_sGadgetName ""\
+        "Airstrike Disabled"
+       }
+       SCR_CallInRequiredRadioContainer "{624EB6B34E1269D8}" {
+        m_sGadgetType "NONE"
+        m_sGadgetName ""
+       }
+      }
+     }
+     SCR_CallInSupportContainer "{613B10C789A6B276}" {
+      m_iMaxSpawnDelay 20
+     }
+     SCR_CallInSupportContainer "{624ED09013D608AA}" {
+      m_iRequestCooldown 800
+      m_iMaxCallInDistance 2000
+      m_iMinCallInDistance 5
+      m_iMinSpawnDelay 25
+      m_iMaxSpawnDelay 40
+      m_iCancellationCooldown 25
+      m_bMustBeSquadLeader 0
+      m_aRequiredGadgets {
+       SCR_CallInRequiredGadgetContainer "{624EB6B343A5C35C}" {
+        m_sGadgetType "FLASHLIGHT"
+        m_sGadgetName ""\
+        "Airstrike Disabled"
+       }
+       SCR_CallInRequiredRadioContainer "{624EB6B3322AF52F}" {
+        m_sGadgetType "NONE"
+        m_sGadgetName ""
+       }
+      }
+     }
+     SCR_CallInSupportContainer "{625128CEE7B354FA}" {
+      m_iRequestCooldown 500
+      m_eRequiredRank CAPTAIN
+      m_iMaxCallInDistance 2000
+      m_iMinCallInDistance 5
+      m_iMinSpawnDelay 15
+      m_iMaxSpawnDelay 20
+      m_iCancellationCooldown 15
+      m_bMustBeSquadLeader 0
+      m_iMinNumberOfSquadMembers 2
+      m_aRequiredGadgets {
+       SCR_CallInRequiredGadgetContainer "{624EB6B351DB734E}" {
+        m_sGadgetType "FLASHLIGHT"
+        m_sGadgetName ""\
+        "Airstrike Disabled"
+       }
+       SCR_CallInRequiredRadioContainer "{624EB6B34E1269D8}" {
+        m_sGadgetType "NONE"
+        m_sGadgetName ""
+       }
+      }
+     }
+    }
+   }
+  }
+  SCR_ArsenalManagerComponent "{6120A34EB1E9BBEF}" {
+   m_fLoadoutSpawnSupplyCostMultiplier 0.5
+  }
+  SCR_CampaignBuildingManagerComponent "{5C6878C4C62529D2}" {
+   m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
+   m_BudgetType CAMPAIGN
+   m_iCompositionRefundPercentage 100
+   m_bSameFactionDisassembleOnly 1
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{5D7A73031D9A11E1}" : "{96A8B496A076F1C0}scripts/Game/Building/CampaignBuildingCompositionOutline.conf" {
+   }
+   m_sPrefabsToBuildResource "{D2527D9AA5B4A33E}Configs/Editor/PlaceableEntities/Compositions/Compositions_FreeRoamBuilding.conf"
+  }
+  SCR_CommandingManagerComponent "{5D16783AFAE684F8}" {
+   m_sCommandsConfigPath "{54764D4E706F348C}Configs/Commanding/Commands.conf"
+  }
+  SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {
+   m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
+  }
+  SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
+   m_bPermitUnconsciousVON 1
+  }
+  SCR_GameOverScreenManagerComponent "{56DEC646298AD219}" {
+   m_GameOverScreenConfig SCR_GameOverScreenConfig "{56DEC6462FFDD82D}" {
+    m_aGameOverScreens {
+     SCR_FactionGameOverScreenInfo "{568E79DBAC19013D}" {
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{568E79DBB3E97D11}" {
+       m_sDebriefing "#AR-Campaign_MatchResult_DefeatDetail_Score"
+      }
+     }
+    }
+   }
+  }
+  SCR_GroupsManagerComponent "{5706EC99934496F5}" {
+   m_iPlayableGroupFrequencyMin 32000
+  }
+  SCR_MapConfigComponent "{5C669498E250A34B}" {
+   m_sSpawnMapConfigPath "{901F9ED2088BBCA4}Configs/Map/MapSpawnConflict.conf"
+  }
+  SCR_NametagConfigComponent "{571AA9E54FC9210D}" {
+   m_sConfigPath "{09F7AAA14A642683}Configs/NameTags/NametagFriendlies.conf"
+  }
+  SCR_NotificationSenderComponent "{56FA84B04BE7D4C0}" {
+   m_iKillFeedType FULL
+   m_iReceiveKillFeedType ALL
+  }
+  SCR_PlayerSpawnPointManagerComponent "{5CDABA98894199D0}" {
+   m_bRadioVehicleSpawningEnabled 1
+   m_eDeployableSpawnPointBudgetType SPAWNTICKET
+   m_iDeployableSpawnPointTicketAmount 15
+  }
+  SCR_RespawnBriefingComponent "{5B2A94A3CF791D6F}" {
+   m_sJournalConfigPath "{FFB1A12A7BFC4957}Configs/Journal/JournalConflict.conf"
+   m_Info SCR_UIInfo "{5B2A94A66BB56FB3}" {
+    Description "#AR-Campaign_GamemodeTutorial"
+   }
+   m_aGameModeHints {
+    SCR_UIInfo "{5B2A94A72CAF0E18}" {
+     Name "#AR-BriefingCampaign_Hint_Name_01"
+     Description "#AR-BriefingCampaign_Hint_Description_01"
+     Icon "{324E923535DCACF8}UI/Textures/DeployMenu/Briefing/conflict_HintBanner_1_UI.edds"
+    }
+    SCR_UIInfo "{5B2A94A72AB20D65}" {
+     Name "#AR-BriefingCampaign_Hint_Name_02"
+     Description "#AR-BriefingCampaign_Hint_Description_02"
+     Icon "{3C50D67D082BA322}UI/Textures/DeployMenu/Briefing/conflict_HintBanner_2_UI.edds"
+    }
+    SCR_UIInfo "{5B2A94A729D6B272}" {
+     Name "#AR-BriefingCampaign_Hint_Name_03"
+     Description "#AR-BriefingCampaign_Hint_Description_03"
+     Icon "{39A515BAE3795994}UI/Textures/DeployMenu/Briefing/conflict_HintBanner_3_UI.edds"
+    }
+   }
+   m_aWinConditions {
+    SCR_BriefingVictoryCondition "{5B2A94A7531ADD24}" {
+     victoryCondition SEIZE
+     name "Condition_01"
+     description "#AR-BriefingCampaign_VictoryCondition_01"
+    }
+    SCR_BriefingVictoryCondition "{5B2A94A752415E44}" {
+     victoryCondition GUARD
+     name "Condition_02"
+     description "#AR-BriefingCampaign_VictoryCondition_02"
+    }
+    SCR_BriefingVictoryCondition "{5B2A94A75295460F}" {
+     victoryCondition SEIZE_RELAY
+     name "Condition_03"
+     description "#AR-BriefingCampaign_VictoryCondition_03"
+    }
+   }
+  }
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic SCR_MenuSpawnLogic "{5CEAA65B714D5CFF}" {
+   }
+  }
+  SCR_SaveLoadComponent "{58FA739CBE3E9FC5}" {
+   m_Struct SCR_MissionStruct "{5C6E86B1D6F0EC89}" {
+    m_Struct0 SCR_CampaignStruct "{5C6E86B1D41E4E2F}" {
+    }
+    m_Struct1 SCR_EditorStruct "{5E2C9BB6F87D9794}" {
+     m_AttributeList SCR_EditorAttributeList "{5E2C9BB656E63FCF}" : "{F3D6C6D25642352C}Configs/Editor/AttributeLists/Edit.conf" {
+     }
+     m_bSaveFactions 0
+     m_bSaveMissionAttributes 0
+     m_eRequiredEntityFlags LINKED_CHILDREN
+    }
+    m_Struct2 SCR_EditorStruct "{604AE588166D0165}" {
+     m_AttributeList SCR_EditorAttributeList "{604AFD87084A5DB6}" {
+     }
+     m_bSaveFactions 0
+     m_bSaveMissionAttributes 0
+     m_eRequiredEntityFlags FREE_ROAM_BUILDING_AI
+    }
+   }
+   m_iAutosavePeriod 120
+  }
+  SCR_SpawnProtectionComponent "{5D167A246026C95B}" {
+   m_fProtectionTime 2
+  }
+  SCR_SpawnerAIGroupManagerComponent "{5D24928789534FCF}" {
+   Enabled 0
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5CC49B5A1313B84E}" {
+   m_iStartingHours 7
+   m_bRandomStartingDaytime 0
+   m_fDayTimeAcceleration 3
+   m_fNightTimeAcceleration 6
+   m_bRandomWeatherChanges 1
+   m_bAllowHeaderSettings 1
+  }
+  SCR_VotingManagerComponent "{5650BB6B6089393A}" {
+   Enabled 0
+  }
+  SCR_WelcomeScreenComponent "{5D349E3E9CC39991}" {
+   m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
+  }
+  SCR_XPHandlerComponent "{5CAAA397E5408ABF}" {
+   m_iSuicidePenaltyCooldown 0
+  }
+ }
+ coords 7039.056 1.805 8302.214
+ m_iControlPointsThreshold 10
+ m_fVictoryTimer 600
+ m_iRegularSuppliesIncome 280
+ m_iRegularSuppliesIncomeBase 2
+ m_iRegularSuppliesIncomeExtra 0
+ m_iHQStartingSupplies 12000
+ m_iMaxStartingSupplies 500
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 7042.85 1.674 8312.373
+}
+SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 7041.973 1.791 8298.435
+ Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_aStartingVehicles {
+   }
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aStartingVehicles {
+   }
+  }
+  SCR_CampaignFaction "{56F0C3A6336375DC}" : "{CF9447B87AB774DB}Configs/Factions/FIA_Campaign.conf" {
+   m_sFactionBackground "{81BF3B1DCC106577}UI/Textures/DeployMenu/Loadout-BG/Loadout_BG_FIA.imageset"
+  }
+  SCR_Faction "{60DCF47AEF40BD72}" : "{3FA20B01D950D31F}Configs/Factions/CIV.conf" {
+  }
+ }
+}
+ItemPreviewManagerEntity ItemPreviewManagerEntity1 {
+ coords 7038.26 1.799 8301.925
+ PreviewWorld "{4391FE7994EE6FE2}Prefabs/World/Game/InventoryPreviewWorld.et"
+ DefaultRenderAttributes PreviewRenderAttributes "{52EF3E2AF2E07544}" {
+ }
+}
+SCR_MapLocator {
+ coords 7033.521 1.735 8305.973
+ m_WorldDirections SCR_MapLocationQuadHint "{5AAA8B37D1168EEB}" : "{ABA21F381437DFE8}Configs/Map/MapLocatorHints/LocationHintsEveron.conf" {
+ }
+}
+SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
+ coords 7046.921 1.84 8308.793
+}
+BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ coords 7038.147 1.798 8302.643
+}
+MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
+ coords 7041.909 1.552 8314.5
+ Music {
+  SCR_RespawnMusic "{59CEAEC5D2396983}" {
+   Acp "{5384886296D17BDB}Sounds/Music/Ingame/Music_Ingame.acp"
+  }
+  SCR_GameEndMusic "{59D0B7E1CD02D367}" {
+   Acp "{5384886296D17BDB}Sounds/Music/Ingame/Music_Ingame.acp"
+  }
+ }
+}
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 7034.227 1.689 8308.413
+}
+GenericEntity : "{811ECBE58F51D9A2}Prefabs/MP/Campaign/Assets/CampaignHQRadioBase.et" {
+ components {
+  Hierarchy "{5EEEC82334A2292C}" {
+  }
+ }
+ coords 7034.981 1.719 8307.491
+}

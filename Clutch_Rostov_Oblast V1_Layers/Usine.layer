@@ -1,0 +1,76 @@
+SCR_DestructibleBuildingEntity : "{01D619B3D01903F9}PrefabLibrary/Structures/Military/GuardHouse_03_white.et" {
+ coords 3862.56 -0.113 6089.038
+ angleY 92.644
+}
+SCR_DestructibleBuildingEntity : "{0E593539186A33C8}Prefabs/City/Unfinished_7_Story.et" {
+ coords 3831.722 131.377 6007.034
+ angleY -179.052
+}
+SCR_DestructibleBuildingEntity : "{12310677867A85D4}Prefabs/Structures/Industrial/Houses/Warehouse_01/Warehouse_01.et" {
+ coords 3859.176 0.194 6161.41
+ angleY -149.295
+}
+$grp SCR_DestructibleBuildingEntity : "{1F6EA391B993A869}PrefabLibrary/Structures/Industrial/FuelTank_03/FuelTank_03_grey.et" {
+ {
+  coords 3946.528 -0.001 6067.487
+  angleY -97.073
+ }
+ {
+  coords 3944.089 0 6086.131
+  angleY -97.073
+ }
+}
+SCR_DestructibleBuildingEntity : "{4457256899033933}Prefabs/City/MultiFloor_Building.et" {
+ coords 3724.829 132.574 6146.835
+ angleY 86.682
+}
+SCR_DestructibleBuildingEntity : "{55CB1994CF02E52E}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/ShedMetal_02_short_walls.et" {
+ coords 3681.255 0.102 6154.517
+ angleY -96.392
+}
+SCR_DestructibleBuildingEntity : "{69C0BDB70BB953E1}Prefabs/City/Bank.et" {
+ coords 3790.619 132.246 6085.356
+}
+SCR_DestructibleBuildingEntity : "{6FC492B696FF2DFC}Prefabs/Structures/Industrial/Smokestacks/SmokestackMetal_E_01/SmokestackMetal_E_01.et" {
+ coords 3889.369 0.256 6144.259
+ angleY -93.787
+}
+$grp SCR_DestructibleBuildingEntity : "{7D5B4278FA09B0DE}PrefabLibrary/Structures/Industrial/FuelTank_01/FuelTank_01_rust.et" {
+ {
+  coords 3916.35 0 6055.271
+  angleY 151.618
+ }
+ {
+  coords 3931.646 0 6058.65
+  angleY 157.039
+ }
+ {
+  coords 3917.628 0 6044.989
+  angleY 149.981
+ }
+}
+SCR_DestructibleBuildingEntity : "{80A5B37A1472B084}Prefabs/Structures/Industrial/Garages/Garage_E_02/Garage_E_02.et" {
+ coords 3856.438 0.532 6055.521
+ angleY 91.224
+}
+SCR_DestructibleBuildingEntity : "{8260DFE6ACD99A40}Prefabs/Industrial/BigBarn.et" {
+ coords 3828.672 135.233 6130.312
+ angleX 0.696
+ angleY 87.038
+}
+SCR_DestructibleBuildingEntity : "{A33B68467443EBAF}Prefabs/Structures/Industrial/Houses/Office_E_01/Office_E_01_ENP.et" {
+ coords 3953.06 0 6122.024
+ angleY -99.224
+}
+SCR_DestructibleBuildingEntity : "{B1F1B1BEB21102A7}Prefabs/Structures/Industrial/Houses/FactoryHall_E_01/FactoryHall_E_01.et" {
+ coords 3902.132 136.977 6160.449
+ angleY 173.723
+}
+SCR_DestructibleBuildingEntity : "{B65271B9D1409498}PrefabLibrary/Infrastructure/Waterworks/WaterTreatmentPlant_01_main.et" {
+ coords 3894.523 136.346 6034.156
+ angleY 2.096
+}
+SCR_DestructibleBuildingEntity : "{BBCEDBF2C4E3E896}Prefabs/Structures/Industrial/Houses/Warehouse_01/Warehouse_01_Office.et" {
+ coords 3823.43 0.992 6091.969
+ angleY 2.063
+}

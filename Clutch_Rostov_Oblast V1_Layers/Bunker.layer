@@ -1,0 +1,83 @@
+SCR_DestructibleBuildingEntity : "{1C50FB60CA0A6492}PrefabLibrary/Infrastructure/Waterworks/WaterStation_01_Uncovered.et" {
+ coords 2230.887 0.166 1246.509
+ angleY -163.414
+}
+GenericEntity : "{2EE3AC5379460721}Prefabs/Structures/BuildingParts/Ventilations/Turtlebox Ventilation.et" {
+ coords 2177.853 78.053 1145.905
+ angleY 121.235
+}
+SCR_DestructibleBuildingEntity : "{47A3D9EC034B1B43}PrefabLibrary/Infrastructure/Waterworks/WaterStation_01.et" {
+ coords 2192.738 0 1199.125
+ angleY -157.93
+}
+SCR_DestructibleBuildingEntity : "{5B8C6AAA8EE60A3A}PrefabLibrary/Infrastructure/Powerline/Transformer110kV_E_01.et" {
+ coords 2191.424 -0.223 1237.023
+ angleY 91.055
+}
+SCR_DestructibleBuildingEntity : "{5C630399F87056D6}Prefabs/Structures/Bulding/Mosque/A_Mosque_small_1_EP2_Full.et" {
+ coords 2180.49 5.703 1139.747
+ angleY -58.363
+}
+StaticModelEntity : "{68FA4E56264168B7}PrefabLibrary/Infrastructure/Towers/TransmitterTower_01_small.et" {
+ coords 2183.28 97.899 1283.7
+}
+$grp Building : "{6A76646345FF655F}Prefabs/Structures/Bunkers/Concrete_Bunker.et" {
+ {
+  coords 2219.294 0 1256.412
+  angleX 1.635
+  angleY 16.86
+  angleZ -2.308
+ }
+ {
+  coords 2157.972 -5.088 1149.581
+  angleY 115.872
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{6BC5356DD1E7F363}Prefabs/Structures/Billboard/Billboard_forrent.et" {
+ {
+  coords 4528.168 -0.136 5096.133
+  angleY 32.791
+ }
+ {
+  coords 2107.036 0.001 1269.823
+  angleY 97.682
+ }
+ {
+  coords 2300 0 1222.951
+  angleY -78.262
+ }
+}
+$grp Building : "{9313943679933616}Prefabs/Structures/Bunkers/Concrete_Bunker_Industry.et" {
+ {
+  coords 2182.461 0 1264.566
+  angleY 11.501
+ }
+ {
+  coords 2233.167 0.269 1198.187
+  angleY 105.483
+ }
+}
+SCR_DestructibleBuildingEntity : "{9C5E92698F5C9D94}Prefabs/Structures/Culture/Churches/Dst Church 01.et" {
+ coords 2177.506 0.116 1233.541
+ angleX 7.158
+ angleY 0.437
+ angleZ -4.378
+}
+$grp Tree : "{AED9083CFB5C5FBD}Prefabs/Trees/Banana_1.et" {
+ {
+  coords 2186.793 4.663 1143.931
+ }
+ {
+  coords 2187.784 5.028 1134.988
+ }
+ {
+  coords 2176.448 4.618 1133.694
+ }
+ {
+  coords 2173.683 5.15 1143.892
+ }
+}
+SCR_DestructibleBuildingEntity : "{E29192D96BCA9047}Prefabs/Structures/Bulding/Military/Barrack_1.et" {
+ coords 2162.084 0 1266.717
+ angleY 10.763
+}

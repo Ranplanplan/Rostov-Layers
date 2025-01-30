@@ -1,0 +1,451 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ D {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 85
+    m_bIsControlPoint 1
+    m_sBaseName "Village Hanté de Xephyos"
+    m_sBaseNameUpper "Village Hanté de Xephyos"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 7200000
+      "Transmitting Range" 2000
+     }
+    }
+   }
+  }
+  coords 1695.615 198.341 7804.527
+  angleX 4.659
+  angleY 7.37
+  angleZ -1.197
+  {
+   GenericEntity {
+    ID "5EEEC471C30578EB"
+    coords -2.016 -0.012 -3.062
+    angleX 0.114
+    angleY -0.002
+    angleZ -0.884
+   }
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.004 0.18 12.015
+    angleX 0.993
+    angleY -0.013
+    angleZ -0.768
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 0.004 0.215 14.017
+    angleX 0.993
+    angleY -0.013
+    angleZ -0.768
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0.001 0
+   }
+  }
+ }
+ G {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 130
+    m_bIsControlPoint 1
+    m_sBaseName ""\
+    "Aérodrome Charle-La-Gaule"
+    m_sBaseNameUpper ""\
+    "Aérodrome Charle-La-Gaule"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 7200000
+      "Transmitting Range" 1560
+     }
+    }
+   }
+  }
+  coords 805.453 113.602 2878.129
+  angleX 0.535
+  angleY -143.319
+  angleZ -0.718
+  {
+   GenericEntity {
+    ID "5EEEC471C30578EB"
+    coords -2.006 0.319 -3.004
+    angleX -0.657
+    angleY -0.013
+    angleZ 1.154
+   }
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 0.036 12
+    angleX -0.535
+    angleY -0.007
+    angleZ 0.718
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 0 0.017 14
+    angleX -0.535
+    angleY -0.007
+    angleZ 0.718
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.002 0.148 0.002
+    angleX -0.535
+    angleY -0.007
+    angleZ 0.718
+   }
+  }
+ }
+ A {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "FOB SPA d'Anonymatek"
+    m_sBaseNameUpper "FOB SPA d'Anonymatek"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 72000
+      "Transmitting Range" 2500
+     }
+    }
+   }
+  }
+  coords 6018.078 183.36 6964.991
+  angleX 2.588
+  angleY -5.391
+  angleZ -1.142
+  {
+   GenericEntity {
+    ID "5EEEC471C30578EB"
+    coords -2.016 -0.025 -3.036
+    angleX -0.084
+    angleY 0.001
+    angleZ -0.89
+   }
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.008 -0.374 11.983
+    angleX -0.973
+    angleY 0.014
+    angleZ -0.808
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.008 -0.409 13.982
+    angleX -0.973
+    angleY 0.014
+    angleZ -0.808
+   }
+  }
+ }
+ F {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 90
+    m_bIsControlPoint 1
+    m_sBaseName "Fort Du Dictateur Rayman"
+    m_sBaseNameUpper "Fort Du Dictateur Rayman"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 7200000
+      "Transmitting Range" 1450
+     }
+    }
+   }
+  }
+  coords 1373.698 166.074 4175.508
+  angleX -1.826
+  angleY -129.247
+  angleZ -0.82
+  {
+   GenericEntity {
+    ID "5EEEC471C30578EB"
+    coords 57.13 -2.652 -136.474
+    angleX 2.644
+    angleY -0.047
+    angleZ -1.008
+   }
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 1.465 -0.05 9.494
+    angleX -1.383
+    angleY -0.027
+    angleZ 1.133
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 1.463 -0.108 11.497
+    angleX -1.947
+    angleY -0.015
+    angleZ 0.44
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 1.464 -0.001 -2.507
+   }
+  }
+ }
+ E {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 85
+    m_bIsControlPoint 1
+    m_sBaseName "Forteresse Du Duc Ranplanplan"
+    m_sBaseNameUpper "Forteresse Du Duc Ranplanplan"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 7200000
+      "Transmitting Range" 1910
+     }
+    }
+   }
+  }
+  coords 487.165 225.003 6357.677
+  angleY -118.203
+  {
+   GenericEntity {
+    ID "5EEEC471C30578EB"
+    coords -1.999 -0.098 -3
+    angleX -0.057
+    angleY 0.002
+    angleZ -2
+   }
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 0.113 12
+    angleX -0.057
+    angleY 0.002
+    angleZ -2
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 0.001 0.144 14
+    angleX 1.154
+    angleY -0.033
+    angleZ -1.635
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+    angleX -0.057
+    angleY 0.002
+    angleZ -2
+   }
+  }
+ }
+ I {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Bunker des Pouilleux"
+    m_sBaseNameUpper "Bunker des Pouilleux"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 7200000
+      "Transmitting Range" 1920
+     }
+    }
+   }
+  }
+  coords 2195.702 84.228 1230.762
+  angleX 7.347
+  angleY 3.02
+  angleZ -4.052
+ }
+ J {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "FOB Garde Manger De Jojo"
+    m_sBaseNameUpper "FOB Garde Manger De Jojo"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 7200000
+      "Transmitting Range" 1970
+     }
+    }
+   }
+  }
+  coords 3917.367 143.053 444.444
+  angleX -0.61
+  angleY -137.062
+  angleZ 0.655
+ }
+ B {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Usine à Clutchers"
+    m_sBaseNameUpper "Usine à Clutchers"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 7200000
+      "Transmitting Range" 2350
+     }
+    }
+   }
+  }
+  coords 3920.649 136.368 6106.12
+  angleX -0.074
+  angleY -2.343
+  angleZ -1.788
+  {
+   GenericEntity {
+    ID "5EEEC471C30578EB"
+    coords -2.016 -0.025 -3.036
+    angleX -0.084
+    angleY 0.001
+    angleZ -0.89
+   }
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.008 -0.374 11.983
+    angleX -0.973
+    angleY 0.014
+    angleZ -0.808
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.008 -0.409 13.982
+    angleX -0.973
+    angleY 0.014
+    angleZ -0.808
+   }
+  }
+ }
+ C {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 85
+    m_bIsControlPoint 1
+    m_sBaseName "Eglise St-Shakaann"
+    m_sBaseNameUpper "Eglise St-Shakaann"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 7200000
+      "Transmitting Range" 1725
+     }
+    }
+   }
+  }
+  coords 3356.295 86.788 7446.579
+  angleX -6.14
+  angleY -158.698
+  angleZ -1.434
+  {
+   GenericEntity {
+    ID "5EEEC471C30578EB"
+    coords -2.016 -0.012 -3.062
+    angleX 0.114
+    angleY -0.002
+    angleZ -0.884
+   }
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.004 0.18 12.015
+    angleX 0.993
+    angleY -0.013
+    angleZ -0.768
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 0.004 0.215 14.017
+    angleX 0.993
+    angleY -0.013
+    angleZ -0.768
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 1.948 0.001 1.845
+   }
+  }
+ }
+ H {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Maison de Streaming de Kouinia"
+    m_sBaseNameUpper "Maison de Streaming de Kouinia"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 720000
+      "Transmitting Range" 1400
+     }
+    }
+   }
+  }
+  coords 938.36 25.687 1749.815
+  angleY 74.759
+  {
+   GenericEntity {
+    ID "5EEEC471C30578EB"
+    coords -2.006 0.319 -3.004
+    angleX -0.657
+    angleY -0.013
+    angleZ 1.154
+   }
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 0.036 12
+    angleX -0.535
+    angleY -0.007
+    angleZ 0.718
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 0 0.017 14
+    angleX -0.535
+    angleY -0.007
+    angleZ 0.718
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.002 0.148 0.002
+    angleX -0.535
+    angleY -0.007
+    angleZ 0.718
+   }
+  }
+ }
+ Point_Central {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 43
+    m_bIsControlPoint 1
+    m_sBaseName "TCHERNOCLUTCH"
+    m_sBaseNameUpper "TCHERNOCLUTCH"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1245
+     }
+    }
+   }
+  }
+  coords 838.401 203.264 5279.495
+  angleY 87.392
+ }
+}

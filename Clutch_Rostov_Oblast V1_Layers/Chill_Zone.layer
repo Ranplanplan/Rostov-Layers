@@ -1,0 +1,246 @@
+$grp GenericEntity : "{02D4A61D327D2BD9}Prefabs/Props/Furniture/Carpet_03_green.et" {
+ {
+  coords 7816.749 227.636 6602.152
+  angleY -3.191
+ }
+ {
+  coords 7820.192 227.636 6604.605
+  angleY -91.37
+ }
+ {
+  coords 7823.2 227.636 6605.277
+  angleY -6.722
+ }
+ {
+  coords 5905.73 163.543 689.267
+  angleY -31.52
+ }
+ {
+  coords 5907.597 163.543 693.06
+  angleY -119.699
+ }
+ {
+  coords 5909.926 163.543 695.079
+  angleY -35.051
+ }
+}
+$grp GenericEntity : "{2DD4D94957E1DC2B}Prefabs/Props/Furniture/Carpet_03_red.et" {
+ {
+  coords 7812.896 227.754 6601.902
+  angleY -3.637
+ }
+ {
+  coords 7817.381 227.636 6604.785
+  angleY -4.489
+ }
+ {
+  coords 7817.305 227.636 6599.219
+  angleY -32.961
+ }
+ {
+  coords 7819.966 227.636 6601.884
+  angleY -0.95
+ }
+ {
+  coords 7820.705 227.636 6599.728
+  angleY -4.949
+ }
+ {
+  coords 7824.569 227.636 6600.069
+  angleY -17.436
+ }
+ {
+  coords 7826.644 227.636 6604.815
+  angleY -4.489
+ }
+ {
+  coords 7827.396 227.636 6601.88
+  angleY -91.22
+ }
+ {
+  coords 5902.457 163.661 687.218
+  angleY -31.966
+ }
+ {
+  coords 5905.037 163.543 691.884
+  angleY -32.818
+ }
+ {
+  coords 5907.611 163.543 686.948
+  angleY -61.29
+ }
+ {
+  coords 5908.689 163.543 690.557
+  angleY -29.278
+ }
+ {
+  coords 5910.363 163.543 689.01
+  angleY -33.278
+ }
+ {
+  coords 5913.603 163.543 691.144
+  angleY -45.765
+ }
+ {
+  coords 5913.176 163.543 696.307
+  angleY -32.818
+ }
+ {
+  coords 5915.232 163.543 694.08
+  angleY -119.549
+ }
+}
+$grp GenericEntity : "{313CC1F195E06A6E}Prefabs/Props/Furniture/TVSet_01.et" {
+ {
+  coords 7827.517 228.606 6602.822
+  angleY -94.659
+ }
+ {
+  coords 5914.89 164.513 694.966
+  angleY -122.988
+ }
+}
+$grp GenericEntity : "{9FE49438E0414334}Prefabs/Props/Furniture/Sofa_01.et" {
+ {
+  coords 7822.302 227.636 6599.666
+  angleY -5.081
+ }
+ {
+  coords 7824.447 227.636 6605.056
+  angleY -144.608
+ }
+ {
+  coords 7819.417 227.636 6599.445
+  angleY -3.406
+ }
+ {
+  coords 7820.525 227.636 6605.502
+  angleY 176.836
+ }
+ {
+  coords 5911.797 163.543 689.713
+  angleY -33.41
+ }
+ {
+  coords 5911.128 163.543 695.475
+  angleY -172.937
+ }
+ {
+  coords 5909.364 163.543 688.15
+  angleY -31.735
+ }
+ {
+  coords 5907.464 163.543 694.007
+  angleY 148.507
+ }
+}
+$grp GenericEntity : "{BBBC235B9B053092}Prefabs/Props/Furniture/Armchair_02.et" {
+ {
+  coords 7817.008 227.656 6599.304
+  angleY 33.072
+ }
+ {
+  coords 7817.259 227.655 6605.398
+  angleY 146.415
+ }
+ {
+  coords 5907.31 163.563 686.882
+  angleY 4.743
+ }
+ {
+  coords 5904.639 163.562 692.366
+  angleY 118.086
+ }
+}
+$grp GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+ {
+  coords 7823.169 227.66 6602.411
+  angleY -22.566
+ }
+ {
+  coords 5911.259 163.567 692.541
+  angleY -50.895
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{ECE10687A4EB6CA5}PrefabLibrary/Structures/Cultural/ChurchSmall_E_01/ChurchSmall_E_01_weathered.et" {
+ {
+  coords 7819.583 0.766 6602.336
+  angleY -93.996
+  {
+   GenericEntity {
+    ID "587EA0FF913A9975"
+   }
+  }
+ }
+ {
+  coords 5908.137 0.772 690.774
+  angleY -122.325
+  {
+   GenericEntity {
+    ID "587EA0FF913A9975"
+   }
+  }
+ }
+}
+$grp GenericEntity : "{F49E9F098C6069AD}Prefabs/Props/Furniture/Toilet_01.et" {
+ {
+  coords 7831.064 227.636 6602.58
+  angleY -87.184
+ }
+ {
+  coords 5918.128 163.543 696.436
+  angleY -115.512
+ }
+}
+$grp GenericEntity : "{F7BB38C6DC5BF74B}Prefabs/Structures/BuildingParts/Cultural/Orgue_Ranplanplan.et" {
+ {
+  components {
+   ActionsManagerComponent "{5528CDC08CD238CC}" {
+    additionalActions {
+     SCR_PlayInstrument "{5E2070C35A4F29F3}" {
+      UIInfo UIInfo "{5528CDC07BFC7343}" {
+       Name "Son étrange.."
+      }
+      Duration 90
+     }
+     SCR_PlayInstrument "{5E2070C35F2FAEFC}" {
+      UIInfo UIInfo "{5528CDC07BFC7343}" {
+       Name "BoomBox Musique Fin"
+      }
+      Duration 10
+     }
+    }
+   }
+  }
+  coords 5915.804 163.564 690.411
+  angleX -0.348
+  angleY -33.255
+  angleZ 0.046
+  scale 0.503
+ }
+ {
+  components {
+   ActionsManagerComponent "{5528CDC08CD238CC}" {
+    additionalActions {
+     SCR_PlayInstrument "{5E2070C35A4F29F3}" {
+      UIInfo UIInfo "{5528CDC07BFC7343}" {
+       Name "Son étrange.."
+      }
+      Duration 90
+     }
+     SCR_PlayInstrument "{5E2070C35F2FAEFC}" {
+      UIInfo UIInfo "{5528CDC07BFC7343}" {
+       Name "BoomBox Musique Fin"
+      }
+      Duration 10
+     }
+    }
+   }
+  }
+  coords 7826.001 227.641 6598.332
+  angleX -0.326
+  angleY -4.012
+  angleZ -0.13
+  scale 0.503
+ }
+}

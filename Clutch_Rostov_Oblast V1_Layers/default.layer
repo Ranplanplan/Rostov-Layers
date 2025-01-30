@@ -1,0 +1,16 @@
+SCR_DestructibleBuildingEntity : "{AFD0F05F3FD48D6C}PrefabLibrary/Structures/Houses/Cottage_E_01.et" {
+ coords 2401.716 0.609 6079.765
+ angleY 96.802
+}
+SCR_DestructibleBuildingEntity : "{CB01B5B68D9EF4C4}PrefabLibrary/Structures/Houses/Villa_E_2I01.et" {
+ coords 2431.685 1.692 6059.297
+ angleY 0.015
+}
+SCR_DestructibleBuildingEntity : "{ECE10687A4EB6CA5}PrefabLibrary/Structures/Cultural/ChurchSmall_E_01/ChurchSmall_E_01_weathered.et" {
+ coords 3368.107 0.694 7448.594
+ angleY -159.28
+}
+GenericEntity : "{F49E9F098C6069AD}Prefabs/Props/Furniture/Toilet_01.et" {
+ coords 3363.198 95.03 7445.886
+ angleY 106.752
+}

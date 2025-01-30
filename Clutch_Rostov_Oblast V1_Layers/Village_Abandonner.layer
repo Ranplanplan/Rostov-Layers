@@ -1,0 +1,161 @@
+SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+ coords 1677.354 0 7800.213
+ angleX -3.889
+ angleY -122.083
+ angleZ -2.833
+ scale 1.029
+}
+$grp SCR_DestructibleBuildingEntity : "{2F76EAD3331D4E8A}PrefabLibrary/Structures/Ruins/HouseRuin_01_Windows.et" {
+ {
+  coords 1668.601 0.121 7804.867
+  angleY -101.388
+ }
+ {
+  coords 1603.794 0.001 7772.387
+  angleX -0.704
+  angleY -101.345
+  angleZ -3.506
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{5A2A6CC012E1739A}PrefabLibrary/Structures/Ruins/HouseRuin_01_Chimney.et" {
+ {
+  coords 1701.247 0 7819.929
+  angleY 87.848
+ }
+ {
+  coords 1669.766 0 7725.951
+  angleX 1.916
+  angleY 87.965
+  angleZ 3.509
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{647B229D61E505F0}PrefabLibrary/Structures/Ruins/HouseRuin_01_Entry.et" {
+ {
+  coords 1706.661 -0.001 7823.105
+  angleY -2.606
+ }
+ {
+  coords 1703.134 -0.014 7763.244
+ }
+ {
+  coords 1675.18 -0 7729.128
+  angleX 5.216
+  angleY -2.873
+  angleZ -2.937
+ }
+}
+SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+ coords 1686.665 0 7802.943
+ angleX -5.97
+ angleY -149.558
+ angleZ -0.404
+ scale 0.963
+}
+SCR_DestructibleBuildingEntity : "{9C5E92698F5C9D94}Prefabs/Structures/Culture/Churches/Dst Church 01.et" {
+ coords 1681.023 0.603 7777.001
+ angleY 103.404
+}
+$grp SCR_DestructibleBuildingEntity : "{9D8C83C25F104D80}PrefabLibrary/Structures/Ruins/HouseRuin_01_Corner.et" {
+ {
+  coords 1674.686 0.118 7806.808
+  angleY -97.812
+ }
+ {
+  coords 1703.291 0 7771.923
+  angleY -177.56
+ }
+ {
+  coords 1609.879 0 7774.328
+  angleX -1.249
+  angleY -97.757
+  angleZ -2.538
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{A67AB8173DD14448}PrefabLibrary/Structures/Ruins/House_Village_E_1I01_ruin.et" {
+ {
+  coords 1720.599 0.565 7819.747
+ }
+ {
+  coords 1700.271 -0.041 7792.81
+  angleX 0.216
+  angleY 114.5
+  angleZ 5.98
+ }
+ {
+  coords 1725.691 0.79 7776
+  angleX 0.426
+  angleY -63.133
+  angleZ -4.791
+ }
+ {
+  coords 1704.906 -0 7740.339
+  angleX -0.77
+  angleY -63.041
+  angleZ -4.4
+ }
+ {
+  coords 1644.011 -0 7753.93
+  angleX 0.415
+  angleY -63.132
+  angleZ -2.798
+ }
+ {
+  coords 1617.027 0 7806.049
+  angleX -2.889
+  angleY -117.481
+  angleZ -5.535
+ }
+ {
+  coords 1652.132 -0.001 7819.025
+  angleX -4.449
+  angleY -117.214
+  angleZ -4.729
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{CAE9DDFBF282E3C7}PrefabLibrary/Structures/Ruins/HouseRuin_01_Corner_Stairs.et" {
+ {
+  coords 1706.834 -0.001 7817.695
+ }
+ {
+  coords 1672.533 0 7798.028
+  angleY 76.271
+ }
+ {
+  coords 1709.242 0.001 7765.693
+ }
+ {
+  coords 1607.726 -0 7765.549
+  angleX 0.636
+  angleY 76.3
+  angleZ 2.607
+ }
+ {
+  coords 1675.353 0 7723.718
+  angleX 2.681
+  angleY -0.084
+  angleZ -1.792
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+ {
+  coords 1704.197 0 7819.899
+  angleX -4.103
+  angleY -118.093
+  angleZ -3.877
+  scale 0.908
+ }
+ {
+  coords 1710.375 -0.001 7771.364
+  angleX 1.636
+  angleY 109.473
+  angleZ 3.422
+  scale 1.063
+ }
+ {
+  coords 1672.716 0 7725.922
+  angleX -3.264
+  angleY -118.127
+  angleZ -2.309
+  scale 0.908
+ }
+}
